@@ -70,9 +70,10 @@ body {
 }
 
 .container {
-  width: 1158px;
+  max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  width: 100%;
 }
 
 .section {
@@ -1060,3 +1061,83 @@ body {
       background-image: linear-gradient(to bottom, rgba(var(--cl-navy-blue), 70%), rgba(var(--cl-navy-blue), 70%)), url("./../images/hero-backgroung-img-l@2x.jpg");
   }
 }
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 480px; 
+    padding: 0 16px;
+  }
+
+ 
+  .header-nav-list {
+    display: none;
+  }
+
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  .hero {
+    padding: 96px 0;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(var(--cl-navy-blue), 0.7),
+      rgba(var(--cl-navy-blue), 0.7)
+    ), 
+    url("./../images/background_people-office.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  .hero-title {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+
+  .values-list {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .values-item {
+    flex-basis: 100%;
+  }
+
+  .team-list {
+    flex-direction: column;
+    align-items: center; 
+  }
+  .team-member {
+    flex-basis: 100%;
+    margin-bottom: 24px;
+  }
+
+
+  .portfolio-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .portfolio-item {
+    flex-basis: 100%;
+    margin-bottom: 24px;
+  }
+  .portfolio-image {
+    width: 100%;
+    height: auto;
+  }
+  .footer .container {
+    flex-direction: column; 
+    align-items: center; 
+    margin-right: 0;
+    padding: 20px 0;
+  }
+  .footer-logo-text {
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  .footer-social-media {
+    margin-bottom: 24px; 
+  }
+  .footer-subscribe-section {
+    margin-top: 24px;
+  }
+}
+
