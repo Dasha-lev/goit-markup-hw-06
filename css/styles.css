@@ -326,6 +326,10 @@ body {
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
+.team-photo {
+  
+}
+
 .team-info {
   padding: 32px 0;
 }
@@ -1047,6 +1051,7 @@ body {
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .hero {
       background-image: linear-gradient(to bottom, rgba(var(--cl-navy-blue), 70%), rgba(var(--cl-navy-blue), 70%)), url("./../images/hero-backgroung-img-m@2x.jpg");
+      
   }
 }
 
