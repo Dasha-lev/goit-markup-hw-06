@@ -70,13 +70,14 @@ body {
 }
 
 .container {
-  width: 1158px;
+  min-width: 320px;
+  max-width: 375px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
 .section {
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 .section-title {
@@ -208,8 +209,7 @@ body {
 .hero {
   padding: 72px 0;
   background-color: rgba(46, 47, 66, 0.7);
-  background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-                     url("./../images/hero-background-img.jpg") 
+  background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("./../images/hero-background-img-s.jpg"); 
   max-width: 375px;
   background-repeat: no-repeat;
   background-size: cover;
