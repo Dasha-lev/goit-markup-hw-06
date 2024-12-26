@@ -59,7 +59,7 @@ img {
   display: block;
 }
 
-/* Base */
+
 body {
   font-family: var(--primary-font);
   color: rgb(var(--cl-grey));
@@ -206,14 +206,15 @@ body {
 
 /* Hero  */
 .hero {
+  padding: 72px 0;
   background-color: rgba(46, 47, 66, 0.7);
   background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-                     url("./../images/background_people-office.jpg"); 
-  padding: 188px 0 188px;
-  max-width: 1440px;
+                     url("./../images/hero-background-img.jpg") 
+  max-width: 375px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin: 0 auto;
 
 }
 
@@ -901,7 +902,7 @@ body {
   .hero {
     padding: 112px 0;
     max-width: 768px;
-    background-image: linear-gradient(to bottom, rgba(var(--cl-navy-blue), 70%), rgba(var(--cl-navy-blue), 70%)), url("./images/hero-backgroung-img-m.jpg");
+    background-image: linear-gradient(to bottom, rgba(var(--cl-navy-blue), 70%), rgba(var(--cl-navy-blue), 70%)), url("./../images/hero-background-img-m.jpg");
   }
 
   .hero-title {
@@ -981,7 +982,7 @@ body {
   .hero {
     padding: 188px 0;
     max-width: 1440px;
-    background-image: linear-gradient(to bottom, rgba(var(--cl-navy-blue), 70%), rgba(var(--navy-blue), 70%)), url("./images/hero-backgroung-img-l.jpg");
+    background-image: linear-gradient(to bottom, rgba(var(--cl-navy-blue), 70%), rgba(var(--navy-blue), 70%)), url("./../images/hero-background-img-l.jpg");
   }
 
   .hero-title {
@@ -1022,18 +1023,18 @@ body {
 
 @media screen and (max-width: 767px) and (min-resolution: 192dpi) {
   .hero {
-      background-image: linear-gradient(to bottom, rgba(var(--cl-navy-blue), 70%), rgba(var(--cl-navy-blue), 70%)), url("./../images/hero-backgroung-img-s@2x.jpg");
+      background-image: linear-gradient(to bottom, rgba(var(--cl-navy-blue), 70%), rgba(var(--cl-navy-blue), 70%)), url("./../images/hero-background-img-s@2x.jpg");
   }
 }
 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .hero {
-      background-image: linear-gradient(to bottom, rgba(var(--cl-navy-blue), 70%), rgba(var(--cl-navy-blue), 70%)), url("./../images/hero-backgroung-img-m@2x.jpg");
+      background-image: linear-gradient(to bottom, rgba(var(--cl-navy-blue), 70%), rgba(var(--cl-navy-blue), 70%)), url("./../images/hero-background-img-m@2x.jpg");
   }
 }
 
 @media screen and (min-width: 1168px) and (min-resolution: 192dpi) {
   .hero {
-      background-image: linear-gradient(to bottom, rgba(var(--cl-navy-blue), 70%), rgba(var(--cl-navy-blue), 70%)), url("./../images/hero-backgroung-img-l@2x.jpg");
+      background-image: linear-gradient(to bottom, rgba(var(--cl-navy-blue), 70%), rgba(var(--cl-navy-blue), 70%)), url("./../images/hero-background-img-l@2x.jpg");
   }
 }
